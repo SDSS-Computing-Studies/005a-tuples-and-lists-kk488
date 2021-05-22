@@ -10,7 +10,7 @@ Turtle
 
 Sort the list into alphabetical order and and then ask the user to enter a number corresponding
 to the index of an element.  Print the element associated with that index.
-
+1
 inputs:
 integer number
 
@@ -24,4 +24,7 @@ The animal at that index is Dog
 
 
 
-animals =
+animals =["Cat","Fish","Dog","Bear","Turtle"]
+sortedAnimals=sorted(animals)
+index=int(input("enter the index of an animal:"))
+print("the animal at that index is",sortedAnimals[index-1])
